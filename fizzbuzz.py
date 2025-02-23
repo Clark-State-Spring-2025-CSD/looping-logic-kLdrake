@@ -13,3 +13,32 @@
 #13
 #14
 #FizzBuzz
+
+for i in range(1, 26):
+    if i == 15:
+        print("FizzBuzz")
+    if i == 3:
+        print("Fizz")
+    if i == 6:
+        print("Fizz")
+    if i == 9:
+        print("Fizz")
+    if i == 12:
+        print("Fizz")
+    if i == 18:
+        print("Fizz")
+    if i == 21:
+        print("Fizz")
+    if i == 24:
+        print("Fizz")
+    if i == 5:
+        print("Buzz")
+    if i == 10:
+        print("Buzz")
+    if i == 20:
+        print("Buzz")
+    if i == 25:
+        print("Buzz")
+    else:
+        print(i)
+
